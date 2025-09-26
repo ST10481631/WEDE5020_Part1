@@ -1,0 +1,102 @@
+/* Home page*/
+/* Heading h1 */
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 100px;
+  color: #4B7A4B; /* darker green */
+  text-transform: capitalize;
+  }
+
+/* Outside background */
+body {
+  background-color: #EAF6EA;  /* darker pastel green */
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  text-align: center;
+  color: #1F3D1F;  /* dark green text */
+}
+
+/* Content Box */
+.content-box {
+  max-width: 1200px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffff; /* slightly darker pastel green */
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(31, 61, 31, 0.2);
+}
+
+/* Heading h2 */
+.heading h2 {
+  margin: 20px 0;
+  color: #1F3D1F; /* darker green */
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+nav {
+  background: linear-gradient(90deg, #7BB77B, #4B7A4B, #7BB77B); /* darker green gradient */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #EAF6EA; /* light green text for contrast */
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4B7A4B;
+  color: #FFFFFF;
+}
+
+
+/* Intro section */
+main {
+  padding: 20px 0;
+}
+
+.intro {
+  border: 2px solid #ffff; 
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ffff;
+  display: inline-block;
+  max-width: 650px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #EAF6EA; 
+  color: #001A00;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 0 0 10px 10px;
+}
+.zoom-img {
+  transition: transform 0.5s ease; /* smooth zoom */
+}
+
+.zoom-img:hover {
+  transform: scale(1.1); /* zoom in 10% */
+}
+
+
