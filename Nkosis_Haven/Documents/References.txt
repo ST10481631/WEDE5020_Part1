@@ -1,0 +1,39 @@
+Refernces
+*W3Schools, 2025. CSS Tutorial. [online] Available at: https://www.w3schools.com/css/
+ [Accessed 24 Sep. 2025].
+
+*MDN Web Docs, 2025. CSS: Cascading Style Sheets. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+ [Accessed 24 Sep. 2025].
+
+*CSS-Tricks, 2025. A Complete Guide to Flexbox. [online] Available at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ [Accessed 24 Sep. 2025].
+
+*CSS-Tricks, 2025. A Complete Guide to Grid. [online] Available at: https://css-tricks.com/snippets/css/complete-guide-grid/
+ [Accessed 24 Sep. 2025].
+
+*MDN Web Docs, 2025. CSS Box Model. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Box_model
+ [Accessed 24 Sep. 2025].
+
+*MDN Web Docs, 2025. CSS Selectors. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+ [Accessed 24 Sep. 2025].
+
+*W3Schools, 2025. CSS Positioning. [online] Available at: https://www.w3schools.com/css/css_positioning.asp
+ [Accessed 24 Sep. 2025].
+
+*W3Schools, 2025. CSS Transitions. [online] Available at: https://www.w3schools.com/css/css3_transitions.asp
+ [Accessed 24 Sep. 2025].
+
+*MDN Web Docs, 2025. CSS Animations. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
+ [Accessed 24 Sep. 2025].
+
+*MDN Web Docs, 2025. Responsive Design with CSS. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+ [Accessed 24 Sep. 2025].
+
+*W3Schools, 2025. CSS Typography. [online] Available at: https://www.w3schools.com/css/css_font.asp
+ [Accessed 24 Sep. 2025].
+
+*Font Awesome, 2025. Using CSS for Icons. [online] Available at: https://fontawesome.com/docs/web/setup/getting-started
+ [Accessed 24 Sep. 2025].
+
+*MDN Web Docs, 2025. CSS Pseudo-classes and Pseudo-elements. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+ [Accessed 24 Sep. 2025].
