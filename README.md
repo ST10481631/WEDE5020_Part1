@@ -63,7 +63,7 @@ Clone or download the repository.
 Maintain the folder structure (css/, pictures/, .html files).
 Open Home Page.html in a modern browser to begin navigating.
 
-⚙️ Requirements
+Requirements
 Any modern browser (Chrome, Edge, Safari).
 Correct image paths in style.css. Example:
 background-image: url('../pictures/Schoolchildren.jpg');
@@ -76,6 +76,10 @@ This project is intended for educational and portfolio purposes. You are free to
 Changelog
 
 All notable changes to this project will be documented here.
+
+Knowledge for feedback:
+The feedback i got said excellent so there was not anything i could change
+
 
 [1.0.0] – 2025-08-27
 
