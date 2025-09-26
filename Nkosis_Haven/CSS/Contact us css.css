@@ -1,30 +1,30 @@
-/* Contact us page*/
+/* Contact us page */
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff; /* white background */
+  background-color: #fff;
   margin: 0;
   padding: 0;
-  color: #2f4f2f; /* dark green text */
+  color: #2f4f2f;
 }
 
 /* Header */
 h1 {
-  color: #94E449; /* heading color */
+  color: #94E449;
   font-size: 2.5rem;
   margin-top: 30px;
 }
 
 /* Section headings */
 h3 {
-  color: #94E449; /* section heading color */
+  color: #94E449;
   margin-top: 20px;
-  border-left: 6px solid #94E459; /* soft green accent */
+  border-left: 6px solid #94E459;
   padding-left: 10px;
 }
 
 /* Navigation buttons */
 nav button {
-  background-color: #ABEA71; 
+  background-color: #ABEA71;
   border: none;
   padding: 10px 15px;
   border-radius: 8px;
@@ -33,7 +33,7 @@ nav button {
 }
 
 nav button:hover {
-  background-color: #C3F099; 
+  background-color: #C3F099;
   transform: scale(1.05);
 }
 
@@ -43,7 +43,7 @@ nav a {
   font-weight: bold;
 }
 
-/* Content formatting */
+/* Main content */
 main {
   text-align: left;
   margin: 40px auto;
@@ -51,7 +51,6 @@ main {
   line-height: 1.6;
 }
 
-/* Lists */
 ul {
   padding-left: 20px;
 }
@@ -60,13 +59,61 @@ ul li {
   margin: 6px 0;
 }
 
+/* Image styling */
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
 /* Footer */
 footer {
   background-color: #94E449;
   color: white;
   padding: 15px 0;
   margin-top: 40px;
- }
- 
- 
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  nav button {
+    padding: 8px 12px;
+  }
+
+  main {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  main img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  nav button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+
 
