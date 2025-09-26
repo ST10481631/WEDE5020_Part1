@@ -1,0 +1,111 @@
+/* Enquiry page */
+body {
+  font-family: Georgia, serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;               /* readable dark text */
+  background: #f2f2f2;       /* very light grey */
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #eaeaea;       /* slightly lighter grey */
+}
+
+nav ul li a.active {
+  background: #e0e0e0;       /* another soft grey */
+  font-weight: bold;
+}
+
+
+
+/* Content */
+.involvement {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  padding: 0;
+}
+
+.involvement li {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.volunteer {
+  background: #f0f8f5;
+  border-left: 4px solid #0002;
+  padding: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+/* Image Section */
+.image-section {
+  margin: 20px 0;
+}
+
+.image-section img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background: #eee;
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+  color: #444;
+}
+
+/* Instagram Icon */
+.instagram {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: #0007;
+  transition: transform 0.3s ease;
+}
+
+.instagram:hover {
+  transform: scale(1.2);
+  color: #0005;
+}
