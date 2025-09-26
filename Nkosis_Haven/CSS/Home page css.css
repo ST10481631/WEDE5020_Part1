@@ -1,11 +1,12 @@
 /* Home page*/
+
 /* Heading h1 */
 h1 {
   font-family: 'Bangers', cursive;
   font-size: 100px;
   color: #4B7A4B; /* darker green */
   text-transform: capitalize;
-  }
+}
 
 /* Outside background */
 body {
@@ -24,7 +25,7 @@ body {
   width: 90%;
   margin: 40px auto;
   padding: 20px;
-  background-color: #ffff; /* slightly darker pastel green */
+  background-color: #ffff; 
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(31, 61, 31, 0.2);
 }
@@ -67,7 +68,6 @@ nav a:hover {
   color: #FFFFFF;/* default white colour*/
 }
 
-
 /* Intro section */
 main {
   padding: 20px 0;
@@ -82,7 +82,6 @@ main {
   max-width: 650px;
 }
 
-
 /* Footer */
 footer {
   background-color: #EAF6EA; 
@@ -91,6 +90,7 @@ footer {
   margin-top: 20px;
   border-radius: 0 0 10px 10px;
 }
+
 .zoom-img {
   transition: transform 0.5s ease; /* smooth zoom */
 }
@@ -98,6 +98,107 @@ footer {
 .zoom-img:hover {
   transform: scale(1.1); /* zoom in 10% */
 }
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet and smaller (max-width: 768px) */
+@media (max-width: 768px) {
+  .content-box {
+    max-width: 100%;
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .intro {
+    max-width: 90%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  nav ul li {
+    width: 100%; /* full width nav items */
+  }
+
+  nav a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .main-heading img {
+    width: 150px; /* scale logo */
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .content-box {
+    max-width: 100%;
+    width: 95%;
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  .intro {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav a {
+    padding: 8px 0;
+    font-size: 0.9rem;
+  }
+
+  .main-heading img {
+    width: 120px; /* smaller logo for mobile */
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
 
 
 
