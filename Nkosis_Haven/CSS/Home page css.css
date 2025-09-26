@@ -64,7 +64,7 @@ nav a {
 
 nav a:hover {
   background-color: #4B7A4B;
-  color: #FFFFFF;
+  color: #FFFFFF;/* default white colour*/
 }
 
 
@@ -98,5 +98,6 @@ footer {
 .zoom-img:hover {
   transform: scale(1.1); /* zoom in 10% */
 }
+
 
 
