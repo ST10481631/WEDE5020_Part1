@@ -148,3 +148,14 @@ Contact us page Updates
 Made the headings green.
 Navigation is green
 THe footer is also green.
+
+[1.0.1] – 2025-09-26
+
+General Updates
+Added responsive design to all the pages
+
+[1.0.0] – 2025-09-26
+
+Initial Release
+Added a references file under documents
+
