@@ -1,7 +1,7 @@
 /* About us page */
 body {
   font-family: 'Georgia', serif;
-  background-image: url('../pictures/Schoolchildren.jpg'); /* fixed path */
+  background-image: url('../Pictures/Schoolchildren.jpg'); /* fixed path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,4 +102,86 @@ hr {
   border-top: 1px solid #fff; /* visible clean line */
   width: 80%;
   margin: 20px auto;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet and smaller (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  nav ul {
+    flex-direction: column; /* stack nav vertically */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  hr {
+    width: 90%;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  nav ul li a {
+    padding: 8px 0;
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  hr {
+    width: 95%;
+  }
 }
