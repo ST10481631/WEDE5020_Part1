@@ -31,23 +31,21 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;               /* readable dark text */
-  background: #f2f2f2;       /* very light grey */
+  color: #333;
+  background: #f2f2f2;
   padding: 10px 15px;
   border-radius: 8px;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-  background: #eaeaea;       /* slightly lighter grey */
+  background: #eaeaea;
 }
 
 nav ul li a.active {
-  background: #e0e0e0;       /* another soft grey */
+  background: #e0e0e0;
   font-weight: bold;
 }
-
-
 
 /* Content */
 .involvement {
@@ -89,6 +87,7 @@ footer {
   padding: 15px;
   background: #eee;
   position: relative;
+  text-align: center;
 }
 
 footer p {
@@ -108,4 +107,39 @@ footer p {
 .instagram:hover {
   transform: scale(1.2);
   color: #0005;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .involvement, .volunteer {
+    max-width: 90%;
+  }
+
+  .image-section img {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .involvement li {
+    font-size: 0.95rem;
+  }
+
+  .volunteer {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
 }
