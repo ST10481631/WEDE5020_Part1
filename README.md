@@ -11,17 +11,13 @@ Interactive Media – images styled with rounded corners, shadows, and hover zoo
 Typography & Layout – professional headings, justified text, and section spacing.
 Reusable Footer – consistent layout across all pages.
 
-
+Home Page (home page.html)
 Introduces the site with a welcoming message.
-
 Highlights navigation to other sections.
 
-👩‍🏫 About Us (about.html)
-
+About Us (about.html)
 Background image of schoolchildren for context.
-
 Provides information about the institution, values, and mission.
-
 Uses a semi-transparent overlay for readable text.
 
  Pages Overview
@@ -75,3 +71,76 @@ Case sensitivity matters (Schoolchildren.jpg ≠ schoolchildren.JPG).
 
  License
 This project is intended for educational and portfolio purposes. You are free to adapt and extend it.
+
+
+Changelog
+
+All notable changes to this project will be documented here.
+
+[1.0.0] – 2025-08-27
+
+Initial Release
+
+Created Home, About Us, Nkosi's Life, Projects, Enquiry and Contact us pages.
+
+Implemented navigation bar and footer. 
+
+Added images.
+
+
+[1.0.2] – 2025-09-18
+
+Home Page Updates
+
+Replaced the old heading image with a text-based heading for better accessibility.
+Added a new supporting picture beneath the heading.
+Updated the navigation bar using css:
+Made it green and fully horizontal.
+Added hover effect so links change color when hovered.
+
+[1.0.2] – 2025-09-22
+
+About us Page Updates
+Made the picture a background picture
+Updated the navigation bar using css:
+Made it transparent and fully horizontal.
+Added hover effect so links change color when hovered over.
+
+[1.0.1] – 2025-09-23
+
+General Updates
+
+Fixed background image paths for compatibility between css/ and pictures/ folders.
+Corrected hr styling issue in CSS.
+
+[1.0.2] – 2025-09-23
+
+Nkosi's Life Page Updates
+Made the picture a background picture.
+Changed to colour of the text.
+Updated the navigation bar using css:
+Made it transparent and fully horizontal.
+Added hover effect so links change color when hovered over.
+
+[1.0.2] – 2025-09-24
+
+Projects Page Updates
+Made the background a soft colour.
+Updated the navigation bar using css:
+Added colour and fully horizontal.
+Added hover effect so links change color when hovered over.
+
+[1.0.2] – 2025-09-25
+
+Enquiry Page Updates
+Made the background a soft grey colour.
+Organized the information.
+Added an icon with hyperlink.
+Updated the navigation bar using css:
+Added grey colour and fully horizontal.
+Added hover effect so links change color when hovered over.
+
+Contact us page Updates
+Made the headings green.
+Navigation is green
+THe footer is also green.
