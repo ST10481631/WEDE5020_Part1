@@ -1,0 +1,174 @@
+/* Projects page */
+body {
+  font-family: Segoe UI, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfcf9; /* soft cream */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Centered wrapper */
+div[align="center"] {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Main heading */
+h1 {
+  font-size: 2.5rem;
+  color: #c48f2c; /* gold accent */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+	
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #444;
+  border-left: 6px solid #c48f2c;
+  padding-left: 10px;
+}
+
+h3 {
+margin-bottom: 20px;
+text-align: left;	
+}	
+
+/* Navigation bar */
+nav {
+  margin: 20px 0;
+}
+
+nav table {
+  border-collapse: collapse;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: #444;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #c48f2c;
+  color: white;
+}
+
+nav a.active {
+  background: #444;
+  color: white;
+}
+
+/* Images */
+img {
+  width: 400px;
+  border-radius: 12px;
+  margin: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.left-img {
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+}
+
+.right-img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Paragraphs */
+p {
+  text-align: justify;
+  margin-top: 8px;
+}
+
+/* Lists */
+ul {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.village {
+  list-style-type: disc;   /* normal bullets */
+  list-style-position: inside; /* align bullets with text */
+  padding-left: 20px;       /* pushes the text in a bit */
+  text-align: left;         /* makes sure the text aligns left */
+  margin-top: 20px;			/* its the same for all three*/
+}
+
+.farm-objectives {
+  list-style-type: disc;   
+  list-style-position: inside; 
+  padding-left: 20px;       
+  text-align: left;         
+  margin-top: 20px;
+}
+
+.farm-objectives li {
+  margin-bottom: 8px;
+}
+
+hr {
+margin-bottom: 50px;
+background: #fdfcf9;
+}
+
+.preschool-objectives {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.preschool-objectives li {
+  margin-bottom: 8px;
+}
+
+
+ul u {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #c48f2c;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+footer hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 20px auto;
+  width: 60%;
+}
+
+/* Clear floats for layout */
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
