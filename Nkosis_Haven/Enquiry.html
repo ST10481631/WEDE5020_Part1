@@ -1,23 +1,26 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enquire</title>
   <link rel="stylesheet" href="CSS/Enquiry css.css">
-  <!-- Font Awesome for Instagram Icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="JS/main.js" defer></script>
 </head>
 <body>
 
 <div class="container">
 
   <!-- Page Header -->
+
   <section>
     <h1>How to get involved</h1>
   </section>
-  
+
   <!-- Navigation bar -->
+
   <nav>
     <ul>
       <li><a href="Home Page.html">Home</a></li>
@@ -28,9 +31,9 @@
       <li><a href="Contact us.html">Contact</a></li>
     </ul>
   </nav>
-  
+
   <hr>
-  
+
   <main>
     <ul class="involvement">
       <li><strong>Donations:</strong> Financial contributions and material donations.</li>
@@ -39,29 +42,50 @@
       <li><strong>Events:</strong> Attend fundraising events to raise awareness and funds.</li>
     </ul>
 
-    <p class="volunteer">
-      <em>Volunteer Applications & Support:</em><br>
-      Local: <a href="mailto:matron1@nkosishaven.org">matron1@nkosishaven.org</a><br>
-      International: <a href="mailto:volunteer@nkosishaven.org">volunteer@nkosishaven.org</a>
-    </p>
+<p class="volunteer">
+  <em>Volunteer Applications & Support:</em><br>
+  Local: <a href="mailto:matron1@nkosishaven.org">matron1@nkosishaven.org</a><br>
+  International: <a href="mailto:volunteer@nkosishaven.org">volunteer@nkosishaven.org</a>
+</p>
+
+<!-- Enquiry Form Section Accordion -->
+<h2 class="accordion">Send Us Your Details</h2>
+<div class="panel">
+  <p>If you'd like to get involved, please share your name and email below.</p>
+  <form action="mailto:volunteer@nkosishaven.org?subject=Volunteer%20Enquiry" method="post" enctype="text/plain">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+    <input type="submit" value="Send">
+  </form>
+</div>
+
+<div class="image-section">
+  <img src="Pictures/Donations.jpg" alt="Donations to Nkosi’s Haven" class="lightbox">
+</div>
+
+
   </main>
-  
+
   <a href="https://www.instagram.com/nkosishavenofficial/" target="_blank" class="instagram">
     <i class="fab fa-instagram"></i>
   </a>
-  
-  <div class="image-section">
-    <img src="Pictures/Donations.jpg" alt="Donations to Nkosi’s Haven">
-  </div>
-  
+
   <footer>
+    <hr width="60%">
     <p>&copy; ST10481631</p>
   </footer>
-  
+
 </div>
 </body>
 </html>
 
+
+
  
 
  
+
