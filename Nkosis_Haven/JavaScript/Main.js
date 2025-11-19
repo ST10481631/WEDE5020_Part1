@@ -79,7 +79,67 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+  
+  /* -----------------------------
+4b. Enhanced Enquiry Form Validation
+----------------------------- */
+const enquiryForm = document.getElementById('enquiryForm');
+const formMessage = document.createElement('div');
+formMessage.id = 'formMessage';
+enquiryForm.appendChild(formMessage);
 
+enquiryForm.addEventListener('submit', e => {
+  e.preventDefault();
+  const name = enquiryForm.querySelector('#name').value.trim();
+  const email = enquiryForm.querySelector('#email').value.trim();
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
+  if(name === '' || email === ''){
+    formMessage.textContent = 'Please fill in all fields.';
+    formMessage.className = 'error';
+    return;
+  }
+
+  if(!emailPattern.test(email)){
+    formMessage.textContent = 'Please enter a valid email address.';
+    formMessage.className = 'error';
+    return;
+  }
+
+  // If valid, show success message
+  formMessage.textContent = 'Thank you! Your enquiry has been sent.';
+  formMessage.className = 'success';
+
+  // Optionally submit via mailto:
+  enquiryForm.submit();
+});
+
+// Form validation and feedback
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('enquiryForm');
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const messageDiv = document.getElementById('formMessage');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); // prevent default mailto submission
+
+      let nameValid = nameInput.value.trim() !== '';
+      let emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailInput.value);
+
+      if(!nameValid || !emailValid){
+        messageDiv.textContent = 'Please enter a valid name and email.';
+        messageDiv.className = 'error';
+        return;
+      }
+
+      messageDiv.textContent = 'Thank you! Your enquiry has been submitted.';
+      messageDiv.className = 'success';
+
+      // Optional: still open default mail client
+      form.submit();
+    });
+  });
   /* -----------------------------
   5. Fade-in Animations
   ----------------------------- */
@@ -111,4 +171,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+// -----------------------------
+// 7.Project Search Functionality
+// -----------------------------
+ document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('projectSearch');
+  const projectList = document.getElementById('projectsList');
+  const projectItems = projectList.querySelectorAll('li');
 
+  // Create "No results found" element
+  let noResultItem = document.createElement('li');
+  noResultItem.textContent = "No projects found.";
+  noResultItem.style.color = "red";
+  noResultItem.style.fontStyle = "italic";
+  noResultItem.style.display = "none";
+  projectList.appendChild(noResultItem);
+
+  if(searchInput && projectItems.length > 0){
+    searchInput.addEventListener('input', () => {
+      const filter = searchInput.value.toLowerCase();
+      let anyVisible = false;
+
+      projectItems.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        if(text.includes(filter)){
+          item.style.display = '';
+          anyVisible = true;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      // Show or hide "No results found"
+      noResultItem.style.display = anyVisible ? 'none' : '';
+    });
+  }
+});

@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="CSS/Enquiry css.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="JS/main.js" defer></script>
+  <style>
+    
+  </style>
 </head>
 <body>
 
@@ -42,6 +45,7 @@
       <li><strong>Events:</strong> Attend fundraising events to raise awareness and funds.</li>
     </ul>
 
+```
 <p class="volunteer">
   <em>Volunteer Applications & Support:</em><br>
   Local: <a href="mailto:matron1@nkosishaven.org">matron1@nkosishaven.org</a><br>
@@ -52,7 +56,7 @@
 <h2 class="accordion">Send Us Your Details</h2>
 <div class="panel">
   <p>If you'd like to get involved, please share your name and email below.</p>
-  <form action="mailto:volunteer@nkosishaven.org?subject=Volunteer%20Enquiry" method="post" enctype="text/plain">
+  <form id="enquiryForm" action="mailto:volunteer@nkosishaven.org?subject=Volunteer%20Enquiry" method="post" enctype="text/plain">
     <label for="name">Full Name:</label><br>
     <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
 
@@ -60,13 +64,14 @@
     <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
 
     <input type="submit" value="Send">
+    <div id="formMessage"></div>
   </form>
 </div>
 
 <div class="image-section">
   <img src="Pictures/Donations.jpg" alt="Donations to Nkosi’s Haven" class="lightbox">
 </div>
-
+```
 
   </main>
 
@@ -80,12 +85,6 @@
   </footer>
 
 </div>
+
 </body>
 </html>
-
-
-
- 
-
- 
-

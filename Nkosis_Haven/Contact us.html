@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-    <link rel="stylesheet" href="CSS/Contact us css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+
+  <link rel="stylesheet" href="CSS/Contact us css.css">
+  <script src="JS/main.js" defer></script>
+
+  <!-- Leaflet removed because you're using Google Maps now -->
 </head>
+
 <body>
+
   <div align="center">
     <section>
       <h1>Contact details</h1>
     </section>
 
+    <!-- Navigation bar -->
     <nav>
       <table align="center" cellspacing="10">
         <tr>
@@ -20,7 +27,7 @@
           <td><button><a href="Nkosi's Life.html">All about Nkosi</a></button></td>
           <td><button><a href="Projects.html">Our Work</a></button></td>
           <td><button><a href="Enquiry.html">How to get involved</a></button></td>
-          <td><button><a href="Contact us.html">Contact</a></button></td>
+          <td><button><a href="Contact us.html" class="active">Contact</a></button></td>
         </tr>
       </table>
     </nav>
@@ -28,47 +35,84 @@
     <hr width="80%" />
 
     <main>
-      <img src="Pictures/Second.logo.jpg" alt="Main logo" width="550" align="right" >
-      
-      <h3>General Contact</h3>
-      <ul type="none">
-        <li>Phone: +27-11-942-5580</li>
-        <li>nkosishaven.org</li>
-        <li>hombaze.co.za</li>
-        <li>south-africa.worldplaces.me</li>
-      </ul>
+      <!-- General Contact Accordion -->
+      <h2 class="accordion">General Contact</h2>
+      <div class="panel">
+        <img src="Pictures/Second.logo.jpg" alt="Main logo" width="550" align="right" class="lightbox">
+        <ul type="none">
+          <li>Phone: +27-11-942-5580</li>
+          <li>nkosishaven.org</li>
+          <li>hombaze.co.za</li>
+          <li>south-africa.worldplaces.me</li>
+        </ul>
+      </div>
 
-      <h3>Founder & Director</h3>
-      <p>
-        Gail Johnson — reachable via the same number <br/>
-        nkosishaven.org<br />
-        takemyhand.tv
-      </p>
+      <!-- Founder & Director Accordion -->
+      <h2 class="accordion">Founder & Director</h2>
+      <div class="panel">
+        <p>
+          Gail Johnson — reachable via the same number <br/>
+          nkosishaven.org<br />
+          takemyhand.tv
+        </p>
 
-      <h3>Operations Manager</h3>
-      <p>
-        Lynn Sewell — also via the same phone number <br/>
-        nkosishaven.org
-      </p>
+        <button class="toggle-button" data-target="directorExtra">Show More</button>
 
-      <h3>Physical Address</h3>
-      <p>
-        Location: 34 Vereeniging Service Road Alan Manor<br/>
-        Johannesburg<br/>
-        South Africa (Postal code: 2091) 
-      </p>
+        <div id="directorExtra">
+          <p>Additional details about the Director, past projects, and initiatives.</p>
+        </div>
+      </div>
 
-      <h3>Email Addresses</h3>
-      <p>
-        General Inquiries & Director Contact:<br/>
-        director@nkosishaven.org <br/>
-        takemyhand.tv
-      </p>
+      <!-- Operations Manager Accordion -->
+      <h2 class="accordion">Operations Manager</h2>
+      <div class="panel">
+        <p>
+          Lynn Sewell — also via the same phone number <br/>
+          nkosishaven.org
+        </p>
+      </div>
+
+      <!-- Physical Address Accordion -->
+      <h2 class="accordion">Physical Address</h2>
+      <div class="panel">
+        <p>
+          Location: 34 Vereeniging Service Road Alan Manor<br/>
+          Johannesburg<br/>
+          South Africa (Postal code: 2091)
+        </p>
+      </div>
+
+      <!-- Email Addresses Accordion -->
+      <h2 class="accordion">Email Addresses</h2>
+      <div class="panel">
+        <p>
+          director@nkosishaven.org <br/>
+          takemyhand.tv
+        </p>
+      </div>
+
     </main>
-		
-    <footer>
-      <p>&copy; ST10481631</p>
-    </footer>
+
+  </div> <!-- END CENTER DIV -->
+
+  <!-- ✅ WORKING GOOGLE MAP BELOW -->
+  <h2 style="text-align:center;">Our Location</h2>
+
+  <div style="width:100%; height:450px;">
+    <iframe
+      width="100%"
+      height="100%"
+      style="border:0;"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.708717551454!2d27.975426075002145!3d-26.28007057703464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a5e5e0779ce5%3A0x6bdb902788bacb52!2sNkosi's%20Haven!5e0!3m2!1sen!2sza!4v1737330000000"
+    ></iframe>
   </div>
+
+  <footer>
+    <p>&copy; ST10481631</p>
+  </footer>
+
 </body>
 </html>
