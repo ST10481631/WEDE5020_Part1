@@ -159,3 +159,5 @@ Added responsive design to all the pages
 Initial Release
 Added a references file under documents
 
+## Changelog
+See `CHANGELOG.md` for a full history of updates.
